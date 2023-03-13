@@ -11,7 +11,7 @@ CREATE TABLE client(
     password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO cliente VALUES
+INSERT INTO client VALUES
 (NULL, 'CaramicoFish', '12345678000160', '(11)99999-9999', 'caramico@gmail.com', '1234567senha');
 
 UPDATE client SET name = 'Caralápia' WHERE id = 1;
